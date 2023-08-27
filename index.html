@@ -1,6 +1,6 @@
 <head>
 <title>Google</title>
-<link rel="icon" href="favicon.ico">
+<link　id="favicon" rel="icon" href="https://scfcdv.github.io/homeweb2/favicon.ico">
 <style>
 body {overflow: hidden;}
 </style>
@@ -8,6 +8,8 @@ body {overflow: hidden;}
 var kesua543 = 0
 function buttonClicked200000000() {
 if (kesua543 === 0){
+const newFaviconLink = document.getElementById('favicon');
+newFaviconLink.href = 'favicon.ico';
 kesua543 = 1
 document.getElementById('e').style.visibility = 'visible'
 document.getElementById('a').style.visibility = 'hidden'
@@ -16,6 +18,8 @@ document.getElementById('c').style.visibility = 'hidden'
 document.getElementById('timer').style.visibility = 'hidden'
 }else {
 kesua543 = 0
+const newFaviconLink = document.getElementById('favicon');
+newFaviconLink.href = 'https://scfcdv.github.io/homeweb2/favicon.ico';
 document.getElementById('a').style.visibility = 'visible'
 document.getElementById('sukoaValue').style.visibility = 'visible'
 document.getElementById('c').style.visibility = 'visible'
